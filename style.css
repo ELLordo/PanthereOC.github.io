@@ -775,7 +775,11 @@ h2 {
     width: 90%;
     margin-left: 40px;
 }
-
+@media screen and (max-width:768px) {
+    h2{
+        margin-left: 20px;
+    }
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -887,11 +891,19 @@ h4 {
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
-
-.bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+@media screen and (max-width:768px) {
+    .bg-banniere{
+    background-image: url("img/agence-la-panthereRD.jpg");
+    }
 }
-
+.bg-presentation {
+    background-image: url("img/image-de-presentation.jpg");
+}
+@media screen and (max-width:768px) {
+    .bg-presentation{
+        background-image: url("img/image-de-presentationRD.jpg");
+        }
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
